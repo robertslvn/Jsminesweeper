@@ -37,7 +37,7 @@ function getbuttons() {
 						boxsidedimension = 16;
 						gameIsSetup	= false;
 						gameover = false;
-						finisharea.innerHTML = "";
+						finisharea.innerHTML = "Level 1 - 10 mines <br> Level 2 - 40 mines";
 				}
 				//level 1 button
 				else {
@@ -46,7 +46,7 @@ function getbuttons() {
 						boxsidedimension = 8;
 						gameIsSetup	 = false;
 						gameover = false;
-						finisharea.innerHTML = "";
+						finisharea.innerHTML = "Level 1 - 10 mines <br> Level 2 - 40 mines";
 				}
 				//rerun initial page setup with new/restarted info
 				initialPageSetup();
@@ -117,7 +117,7 @@ function disableplayboxes() {
 //
 //setup the page as initial, depending on difficulty selected
 function initialPageSetup() {
-
+finisharea.innerHTML = "Level 1 - 10 mines <br> Level 2 - 40 mines";
 //setup game board depending on size wanted, tempstring used to avoid default table formatting issues
 tempoutputstring = "<table><tr><th colspan = '" + boxsidedimension + "'><button id = 'Easy'>Level 1 / Restart</button><button id = 'Medium'>Level 2 / Restart</button><h1>MINESWEEPER</h1></th></tr>";
 for (var i = 0; i < boxsidedimension; i++) {

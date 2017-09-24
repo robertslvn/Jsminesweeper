@@ -1,3 +1,8 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+
+}
+
 br {
 	margin: 0;
 }
@@ -29,4 +34,15 @@ th {
 
 button, h1 {
 	margin: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+button {
+  background-color: white;
+  cursor: pointer;
+  border: 3px solid #d9d9d9;
+}
+
+.box:hover{
+  cursor: pointer;
 }
